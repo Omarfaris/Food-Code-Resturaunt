@@ -1,0 +1,170 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+/*font-family: 'Cutive Mono', monospace;*/
+
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+/*font-family: 'Hachi Maru Pop', cursive;*/
+
+/* Colors */
+:root {
+  --colorone: #003b9b;
+  --colortwo: #33a1fd;
+  --colorthree: #ff2e00;
+  --colorfour: #53dd6c;
+  font-family: "Cutive Mono", monospace;
+}
+header {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+      to top,
+      rgba(0, 59, 155, 0.5),
+      rgba(0, 59, 155, 0.5)
+    ),
+    url("../Images and Icons/Turkey.jpg") no-repeat fixed center/cover;
+  margin: 0%;
+  position: relative;
+}
+.Title {
+  display: flex;
+  justify-content: center;
+  font-size: 400%;
+  margin: 0%;
+  position: relative;
+  top: 40%;
+  color: var(--colorthree);
+  letter-spacing: 15px;
+}
+.subtitle {
+  display: flex;
+  justify-content: center;
+  font-size: 400%;
+  margin: 0%;
+  position: relative;
+  top: 50%;
+  color: var(--colorthree);
+  letter-spacing: 15px;
+}
+.logo {
+  width: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header > nav {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  font-size: 200%;
+  width: 600px;
+}
+header > nav > a {
+  text-decoration: none;
+  color: white;
+  margin: 1.5% 3%;
+  padding: 0.5px 3px;
+}
+.menunav {
+  background: var(--colorthree);
+  display: flex;
+  justify-content: center;
+}
+.menunav > a {
+  text-decoration: none;
+  color: white;
+  font-size: 200%;
+  margin: 0 2%;
+}
+.menuguide {
+  font-size: 200%;
+  color: var(--colorone);
+  text-align: center;
+}
+.menuguide > a {
+  text-decoration: none;
+  color: var(--colorone);
+}
+.menuguide > a:hover {
+  text-decoration: underline;
+}
+.headtitle {
+  font-size: 350%;
+  color: var(--colorthree);
+  text-align: center;
+  margin: 0%;
+  margin-bottom: 20px;
+  letter-spacing: 15px;
+}
+/*Meny Item*/
+.itemcontainer {
+  height: 343px;
+  /* border: 5px ridge red; */
+  position: relative;
+}
+.itemimage {
+  width: 500px;
+  display: inline;
+  border: 5px solid var(--colorthree);
+  border-radius: 20px;
+}
+.itemtitle {
+  display: inline;
+  font-size: 300%;
+  color: var(--colorfour);
+  font-family: "Hachi Maru Pop", cursive;
+  position: absolute;
+  top: -50px;
+  left: 520px;
+}
+.itemabout {
+  display: inline;
+  font-size: 200%;
+  color: var(--colorone);
+  font-family: "Hachi Maru Pop", cursive;
+  position: absolute;
+  top: 10px;
+  left: 520px;
+  width: 550px;
+}
+.pricebox {
+  height: 120px;
+  width: 120px;
+  background-color: var(--colorone);
+  color: var(--colorfour);
+  border-radius: 100%;
+  position: absolute;
+  top: 80px;
+  left: 1150px;
+  border: 3px solid var(--colorthree);
+}
+.pricebox > h1 {
+  font-size: 195%;
+  position: absolute;
+  top: 20%;
+}
+footer {
+  background: var(--colorthree);
+  height: 100px;
+  position: relative;
+}
+footer > div {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+footer > div > a {
+  color: white;
+}
+footer > h1 {
+  font-size: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px;
+  color: var(--colortwo);
+}
+.F {
+  color: var(--colortwo);
+  display: inline;
+}

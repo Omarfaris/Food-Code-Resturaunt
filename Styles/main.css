@@ -1,0 +1,198 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+/*font-family: 'Cutive Mono', monospace;*/
+
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+/*font-family: 'Hachi Maru Pop', cursive;*/
+
+/* Colors */
+:root {
+  --colorone: #003b9b;
+  --colortwo: #33a1fd;
+  --colorthree: #ff2e00;
+  --colorfour: #53dd6c;
+  font-family: "Cutive Mono", monospace;
+}
+header {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+      to top,
+      rgba(0, 59, 155, 0.5),
+      rgba(0, 59, 155, 0.5)
+    ),
+    url("../Images and Icons/Turkey.jpg") no-repeat fixed center/cover;
+  margin: 0px;
+  position: relative;
+}
+.Title {
+  display: flex;
+  justify-content: center;
+  font-size: 400%;
+  margin: 0%;
+  position: relative;
+  top: 40%;
+  color: var(--colorthree);
+  letter-spacing: 15px;
+}
+footer > div {
+  display: inline;
+}
+.logo {
+  width: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+nav {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  font-size: 200%;
+  width: 600px;
+}
+nav > a {
+  text-decoration: none;
+  color: white;
+  margin: 1.5% 3%;
+  padding: 0.5px 3px;
+}
+.offer {
+  position: relative;
+}
+.offer > h1 {
+  font-size: 300%;
+  color: red;
+  margin-bottom: 0;
+  font-family: "Hachi Maru Pop", cursive;
+}
+.offer > img {
+  width: 400px;
+  border: 3px solid red;
+  border-radius: 20px;
+  display: inline;
+}
+.offer > p {
+  display: inline;
+  position: absolute;
+  top: 10%;
+  margin-left: 10px;
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: 200%;
+  color: red;
+  width: 500px;
+}
+.offer > h2 {
+  display: inline;
+  font-size: 350%;
+  font-family: "Hachi Maru Pop", cursive;
+  color: red;
+  margin-left: -25%;
+  vertical-align: 150%;
+}
+.offer > p > span {
+  font-weight: bolder;
+  font-size: 120%;
+}
+.Price {
+  margin-left: 510px;
+}
+.MealHeading {
+  font-size: 350%;
+  text-align: center;
+  color: var(--colorthree);
+}
+.column > img {
+  width: 100%;
+  margin: 0%;
+  border: 2px solid var(--colorthree);
+  border-radius: 20px;
+}
+.Name {
+  margin: 0%;
+  color: var(--colorthree);
+  font-family: "Hachi Maru Pop", cursive;
+}
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+  position: relative;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.aboutmeal {
+  color: var(--colorone);
+  font-size: 150%;
+  font-family: "Hachi Maru Pop", cursive;
+  margin-top: 0%;
+}
+.pricebox {
+  height: 80px;
+  width: 80px;
+  background-color: var(--colorone);
+  color: var(--colorfour);
+  border-radius: 100%;
+  position: absolute;
+  border: 3px solid var(--colorthree);
+}
+.pricebox > h1 {
+  font-size: 130%;
+  position: absolute;
+  top: 20%;
+}
+.menulink {
+  text-decoration: none;
+  color: var(--colorthree);
+  font-size: 200%;
+}
+.menulink:hover {
+  text-decoration: underline;
+}
+footer {
+  background: var(--colorthree);
+  height: 100px;
+  position: relative;
+}
+footer > div {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+footer > div > a {
+  color: white;
+}
+footer > h1 {
+  font-size: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px;
+  color: var(--colortwo);
+}
+.F {
+  color: var(--colortwo);
+  display: inline;
+}
+.aboutus {
+  font-size: 300%;
+  text-align: center;
+  color: var(--colorthree);
+}
+
+/* jobs */
+form > button {
+  background: var(--colorthree);
+  width: 150px;
+  height: 30px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+form > button:hover {
+  cursor: pointer;
+}
